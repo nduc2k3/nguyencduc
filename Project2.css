@@ -1,0 +1,468 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.5;
+    background-color: #eee !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+    font-family: "Oswald" !important;
+}
+
+.heading {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.linking i{ 
+    padding: 8px 16px;
+}
+
+.searching i {
+    padding: 8px 16px;
+}
+
+.linking i:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.searching i:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.HeadTitle {
+    text-align: center;
+    padding: 48px 16px;
+    font-weight: bolder !important;
+}
+
+.HeadTitle h1 {
+    font-size: 48px;
+    letter-spacing: 2px;
+} 
+
+.HeadTitle h6 {
+    font-size: 16px;
+}
+
+.HeadTitle h6 span {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.HeadLinking {
+    position: relative;
+}
+
+.HeadLinking img{
+    width: 100%;
+}
+
+.Sub4Me {
+    padding: 12px 24px;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%,-50%);
+}
+
+.SubName {
+    font-size: 36px;
+    letter-spacing: 4px;
+}
+
+.SubBlog {
+    font-size: 64px;
+}
+
+.sendSub {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+    border: 0;
+    opacity: 0.6;
+}
+
+.sendSub:hover {
+    background-color: #fff;
+}
+
+.ContentMiddle {
+    padding: 8px 16px;
+    display: flex;
+}
+
+.OnTheLeft {
+    width: 66.66% ;
+    display: flex;
+    flex-direction: column;
+}
+
+.BlogMainContent {
+    background-color: white;
+    padding: 12px 24px;
+    margin: 16px 0;
+    width: 100%;
+}
+
+.StatusTitle {
+    text-align: center;  
+} 
+
+.StatusTitle h3 {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.StatusTitle h5 {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Status img {
+    width: 100%;
+    padding: 16px 0;
+}
+
+.StatusContent {
+    text-align: justify;
+    font-family: "Open Sans" !important;
+    font-size: 15px;
+}
+
+.StatusContent p {
+    margin: 15px 0;
+}
+
+.StatusContent button {
+    padding: 8px 16px;
+}
+
+.StatusInteract {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Likeee {
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.Likeee:hover {
+    background-color: gray;
+}
+
+.Commenting {
+    background-color: black;
+    color: white;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.ReactNumber {
+    background-color: white;
+    color: black;
+    padding: 0 8px;
+}
+
+.Commenting:hover {
+    background-color: #eee;
+    color: black;
+}
+
+.OnTheRight {
+    width: 33.34%;
+    margin: 16px;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+}
+.Author {
+    border: 0 !important;
+    width: 100%;
+}
+
+.Author img {
+    border: 0;
+    border-radius: 0;
+    filter: grayscale(75%);
+    vertical-align: middle;
+    width: 100%;
+}
+
+.AuthorText {
+    background-color: black;
+    color: white;
+    padding: 0.01em 16px;
+}
+
+.AuthorText h4 {
+    font-weight: 400 !important;
+}
+
+.AuthorText p {
+    font-size: 15px;
+}
+
+.HonorTitle {
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    font-size: 15px;
+    font-family: "Open Sans" !important;
+}
+
+.ListofHonor {
+    list-style: none;
+    background-color: white;
+}
+
+.Honoring {
+    padding: 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.Honoring img {
+    width: 50px;
+    float: left;
+    margin-right: 16px;
+    vertical-align: middle;
+    border: 0;
+}
+
+.NameofHonor {
+    font-size: 18px;
+}
+
+.AdvertisingTitle {
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+}
+
+.AdvertisingTitle h4 {
+    margin: 10px 0;
+}
+
+.AdvertisingContent {
+    padding: 0.01em 16px;
+    background-color: white;
+}
+
+.PlaceContent {
+    height: 200px;
+    margin: 16px 0;
+    padding: 0.01em 16px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NameTagTitle {
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+}
+
+.NameTagTitle h4 {
+    margin: 10px 0;
+}
+
+.NameTagContent {
+    padding: 0.01em 16px;
+    background-color: white;
+}
+
+.NameTagContent p {
+    margin: 15px 0;
+}
+
+.Tag {
+    font-size: 12px;
+    padding: 0 8px;
+    margin-bottom: 16px;
+    background-color: #f1f1f1;
+    display: inline-block;
+}
+
+.Bigger {
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+
+.InspireTitle {
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+}
+
+.InspireTitle h4 {
+    margin: 10px 0;
+}
+
+.TheInspirator {
+    background-color: white;
+    padding: 0.01em 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.FirstHalf {
+    padding: 0 8px;
+    margin-top: 12px;
+    width: 49%;
+}
+
+.FirstHalf img {
+    width: 100%;
+}
+
+.ContactTitle {
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+}
+
+.ContactTitle h4 {
+    margin: 10px 0;
+}
+
+.LinkToContact {
+    padding: 8px 16px;
+    background-color: white;
+    color: black;
+}
+
+.LinkToContact i {
+    margin: 0;
+    font-size: 24px;
+}
+
+.LinkToContact i:hover {
+    opacity: 0.6;
+}
+
+.SubTitle {
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+}
+
+.SubTitle h4 {
+    margin: 10px 0;
+}
+
+.SubContent {
+    background-color: white;
+    color: black;
+    padding: 8px 16px;
+}
+
+.SubContent p {
+    margin: 15px 0;
+}
+
+.SubText {
+    font-size: 20px;
+}
+
+.SubInput {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.SubInteract {
+    padding: 8px 16px;
+    border: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.SubInteract:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+footer {
+    background-color: #616161;
+    padding: 32px;
+}
+
+.Back {
+    background-color: black;
+    color: white;
+    border: 0;
+    padding: 12px 24px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.fa {
+    margin-right: 16px;
+}
+
+.Back:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.BlogFinale h6 {
+    color: white;
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url(./Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(./OpenSans-Regular.ttf);
+}
+
+@media screen and (max-width: 600px) {
+    .heading {
+        display: none;
+    }
+    .SubBlog {
+        display: none;
+    }
+    .OnTheLeft {
+        width: 90%;
+        justify-content: center;
+    }
+    .OnTheRight {
+        width: 90%;
+    }
+    .Author {
+        justify-content: center;
+    }
+    .ContentMiddle {
+        flex-wrap: wrap;
+    }
+}
